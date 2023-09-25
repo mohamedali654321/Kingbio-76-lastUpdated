@@ -4018,10 +4018,10 @@
   "search.filters.filter.edition.placeholder": "رقم الإصدار ",
   "search.filters.applied.f.edition": "الإصدار",
 
-  "search.filters.filter.alternative.head": " عنوان بديل",
-  "search.filters.filter.alternative.label": "بحث اسم عنوان بديل",
-  "search.filters.filter.alternative.placeholder": "اسم عنوان بديل ",
-  "search.filters.applied.f.alternative": "عنوان بديل",
+  "search.filters.filter.alternative.head": "العنوان الموازى",
+  "search.filters.filter.alternative.label": "بحث اسم  العنوان الموازى",
+  "search.filters.filter.alternative.placeholder": "العنوان الموازى",
+  "search.filters.applied.f.alternative": "العنوان الموازى",
 
 
 
@@ -6543,6 +6543,85 @@
 'footer.important.links3':'البريد: Dlibrary@kingabdullah.sa',
 'footer.important.links4':'KingAbdullahDC',
 'footer.link.copyrights':"© جميع الحقوق محفوظة لمركز توثيق سيرة الملك عبدالله بن عبدالعزيز آل سعود 2023م",
+
+
+
+
+  "search.filters.filter.other.head":'الموضوعات',
+  "search.filters.filter.other.label": "بحث في الموضوعات",
+  "search.filters.filter.other.placeholder": "الموضوعات",
+  "search.filters.applied.f.other": "الموضوعات",
+
+   "search.filters.filter.corporate.head":'الهيئات',
+  "search.filters.filter.corporate.label": "بحث في الهيئات",
+  "search.filters.filter.corporate.placeholder": "الهيئات",
+  "search.filters.applied.f.corporate": "الهيئات",
+
+
+   "search.filters.filter.temporal.head":'الأحداث',
+  "search.filters.filter.temporal.label": "بحث في الأحداث",
+  "search.filters.filter.temporal.placeholder": "الأحداث",
+  "search.filters.applied.f.temporal": "الأحداث",
+
+  "search.filters.filter.creator.head":'أسم المؤلف',
+  "search.filters.filter.creator.label": "بحث في أسم المؤلف",
+  "search.filters.filter.creator.placeholder": "أسم المؤلف",
+  "search.filters.applied.f.creator": "أسم المؤلف",
+
+  "search.filters.filter.spatial.head":'الدول - الأماكن',
+  "search.filters.filter.spatial.label": "بحث في الدول - الأماكن",
+  "search.filters.filter.spatial.placeholder": "الدول - الأماكن",
+  "search.filters.applied.f.spatial": "الدول - الأماكن",
+
+   "search.filters.filter.subtype.head":'النوع',
+  "search.filters.filter.subtype.label": "بحث في النوع",
+  "search.filters.filter.subtype.placeholder": "النوع",
+  "search.filters.applied.f.subtype": "النوع",
+
+
+   "search.filters.filter.created.head":'تاريخ التصوير',
+  "search.filters.filter.created.label": "بحث في تاريخ التصوير",
+  "search.filters.filter.created.placeholder": "تاريخ التصوير",
+  "search.filters.applied.f.created": "تاريخ التصوير",
+
+     "search.filters.filter.acquired.head":'تاريخ الاقتناء',
+  "search.filters.filter.acquired.label": "بحث في تاريخ الاقتناء",
+  "search.filters.filter.acquired.placeholder": "تاريخ الاقتناء",
+  "search.filters.applied.f.acquired": "تاريخ الاقتناء",
+
+
+   "search.filters.filter.hijriCreated.head":'التاريخ الهجري',
+  "search.filters.filter.hijriCreated.label": "بحث في التاريخ الهجري",
+  "search.filters.filter.hijriCreated.placeholder": "التاريخ الهجري",
+  "search.filters.applied.f.hijriCreated": "التاريخ الهجري",
+
+ "search.filters.filter.genre.head":'النوع الادبي',
+  "search.filters.filter.genre.label": "بحث في النوع الادبي",
+  "search.filters.filter.genre.placeholder": "النوع الادبي",
+  "search.filters.applied.f.genre": "النوع الادبي",
+
+    "search.filters.filter.publisher.head": "المصدر-الناشر",
+  "search.filters.filter.publisher.label": "بحث باسم المصدر-الناشر",
+  "search.filters.filter.publisher.placeholder": "المصدر-الناشر",
+  "search.filters.applied.f.publisher": "المصدر-الناشر",
+
+   "search.filters.applied.f.author": "المصورون-المؤلفون",
+     "search.filters.filter.author.placeholder": "المصورون-المؤلفون",
+  "search.filters.filter.author.label": "بحث اسم المصورون-المؤلفون",
+   "search.filters.filter.author.head": "المصورون-المؤلفون",
+
+    "search.filters.applied.f.person": "الشخصيات",
+     "search.filters.filter.person.head": "الشخصيات",
+      "search.filters.filter.person.placeholder": "الشخصيات",
+  "search.filters.filter.person.label": "بحث اسم الشخصية",
+
+      "search.filters.applied.f.title": "العناوين",
+     "search.filters.filter.title.head": "العناوين",
+      "search.filters.filter.title.placeholder": "العناوين",
+  "search.filters.filter.title.label": "بحث في العناوين",
+
+    "search.filters.filter.issued.head": "تاريخ النشر",
+  "search.filters.filter.dateissued.head": "تاريخ النشر",
 
 
 }

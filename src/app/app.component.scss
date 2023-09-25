@@ -1791,3 +1791,35 @@ img {
 //   color: #FFF !important;
 // }
 // kware end edit -- issue.7.6.001
+
+
+::ng-deep html[dir="rtl"]{
+  .carousel-item-next:not(.carousel-item-left),
+  .active.carousel-item-right {
+    transform: translateX(-100%);
+  }
+  .carousel-item-prev:not(.carousel-item-right),
+  .active.carousel-item-left {
+    transform: translateX(100%);
+  }
+
+  .carousel-control-next{
+    left: auto !important;
+    right: 0 !important;
+  }
+  .carousel-control-prev{
+    left: 0 !important;
+    right: auto !important;
+   
+    
+  }
+  .carousel-control-next-icon{
+    transform: scale(-1) !important;
+  }
+  .carousel-control-prev-icon{
+    transform: scale(-1) !important;
+  }
+  // .carousel-indicators{
+  //   transform: scale(-1) !important;
+  // }
+}

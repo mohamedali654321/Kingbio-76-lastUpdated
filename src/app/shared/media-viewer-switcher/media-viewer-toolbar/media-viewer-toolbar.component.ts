@@ -41,7 +41,7 @@ export class MediaViewerToolbarComponent {
 
 
   async addWatermarkToPdfFile(actionType: string) {
-    const waterMarkImage = '../../../assets/images/watermark_image.png';
+    const waterMarkImage = '../../../assets/images/watermark_image-bio.png';
     const imageBuffer = await fetch(waterMarkImage).then(res => res.arrayBuffer());
 
     const existingPdfBytes = await

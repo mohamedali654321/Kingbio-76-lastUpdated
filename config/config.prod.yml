@@ -22,7 +22,7 @@ ui:
 # 'synced' with the 'dspace.server.url' setting in your backend's local.cfg.
 rest:
   ssl: false
-  host: 52.209.97.70
+  host: 34.248.82.204
   port: 7077
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /server

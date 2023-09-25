@@ -6453,6 +6453,86 @@
 
 'footer.link.copyrights':"© All Right Reserved to King Abdullah Biography Documentation Center 2023.",
 
+
+
+
+  "search.filters.filter.other.head":'Topics',
+  "search.filters.filter.other.label": "Search for Topics ",
+  "search.filters.filter.other.placeholder": "Topics",
+  "search.filters.applied.f.other": "Topics",
+
+  "search.filters.filter.corporate.head":'Organization',
+  "search.filters.filter.corporate.label": "Search for Organization ",
+  "search.filters.filter.corporate.placeholder": "Organization",
+  "search.filters.applied.f.corporate": "Organization",
+
+  "search.filters.filter.temporal.head":'Events',
+  "search.filters.filter.temporal.label": "Search for Events ",
+  "search.filters.filter.temporal.placeholder": "Events",
+  "search.filters.applied.f.temporal": "Events",
+
+"search.filters.filter.creator.head":'Photographer Name',
+  "search.filters.filter.creator.label": "Search for Photographer Name",
+  "search.filters.filter.creator.placeholder": "Photographer Name",
+  "search.filters.applied.f.creator": "Photographer Name",
+
+  "search.filters.filter.spatial.head":'Country-Places',
+  "search.filters.filter.spatial.label": "Search for Country-Places",
+  "search.filters.filter.spatial.placeholder": "Country-Places",
+  "search.filters.applied.f.spatial": "Country-Places",
+
+"search.filters.filter.subtype.head":'Subtype',
+  "search.filters.filter.subtype.label": "Search for Subtype",
+  "search.filters.filter.subtype.placeholder": "Subtype",
+  "search.filters.applied.f.subtype": "Subtype",
+
+
+  "search.filters.filter.created.head":'Picture Date',
+  "search.filters.filter.created.label": "Search for Picture Date",
+  "search.filters.filter.created.placeholder": "Picture Date",
+  "search.filters.applied.f.created": "Picture Date",
+
+    "search.filters.filter.acquired.head":'Date Of Acquisition',
+  "search.filters.filter.acquired.label": "Search for Date Of Acquisition",
+  "search.filters.filter.acquired.placeholder": "Date Of Acquisition",
+  "search.filters.applied.f.acquired": "Date Of Acquisition",
+
+"search.filters.filter.genre.head":'Genre',
+  "search.filters.filter.genre.label": "Search for Genre",
+  "search.filters.filter.genre.placeholder": "Genre",
+  "search.filters.applied.f.genre": "Genre",
+
+  "search.filters.filter.hijriCreated.head":'Hijri Date',
+  "search.filters.filter.hijriCreated.label": "Search for Hijri Date",
+  "search.filters.filter.hijriCreated.placeholder": "Hijri Date",
+  "search.filters.applied.f.hijriCreated": "Hijri Date",
+  
+
+   "search.filters.filter.publisher.head": "Publisher",
+  "search.filters.filter.publisher.label": "Search publisher name",
+  "search.filters.filter.publisher.placeholder": "Publisher",
+  "search.filters.applied.f.publisher": "Publisher",
+
+   "search.filters.applied.f.author": "Authors",
+   "search.filters.filter.author.head": "Authors",
+  "search.filters.filter.author.placeholder": "Authors",
+  "search.filters.filter.author.label": "Search authors",
+
+  "search.filters.applied.f.person": "Persons",
+   "search.filters.filter.person.head": "Persons",
+    "search.filters.filter.person.placeholder": "Persons",
+
+  "search.filters.filter.person.label": "Search person name",
+
+  
+  "search.filters.filter.title.head":'Titles',
+  "search.filters.filter.title.label": "Search for Titles",
+  "search.filters.filter.title.placeholder": "Titles",
+  "search.filters.applied.f.title": "Titles",
+
+  "search.filters.filter.issued.head": "Date Issued",
+  "search.filters.filter.dateIssued.head": "Date Issued",
+
 }
 
 
