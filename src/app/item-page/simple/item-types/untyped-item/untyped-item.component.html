@@ -95,6 +95,11 @@
     </ds-generic-item-page-field>
 
     <ds-generic-item-page-field [item]="object"
+[fields]="['dc.date.hijriCreated']"
+[label]="'item.page.hijriCreated'">
+</ds-generic-item-page-field>
+
+    <ds-generic-item-page-field [item]="object"
     [fields]="['dc.date.registration']"
     [label]="'item.page.registration'">
     </ds-generic-item-page-field>
@@ -107,7 +112,7 @@
     <ds-generic-item-page-field class="ds-item-page-mixed-author-field"
       [item]="object"
       [fields]="['dc.contributor.author', 'dc.creator']"
-      [label]="'relationships.isAuthorOf'">
+      [label]="'item.page.author'">
     </ds-generic-item-page-field>
     
     <ds-generic-item-page-field [item]="object"
@@ -126,12 +131,12 @@
     [label]="'item.page.advisor'">
   </ds-generic-item-page-field>
 
-  <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+  <!-- <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
   [parentItem]="object"
   [itemType]="'Person'"
   [metadataFields]="['dc.contributor.other']"
   [label]="'item.page.other' | translate">
-</ds-metadata-representation-list>
+</ds-metadata-representation-list> -->
 
 
  <ds-generic-item-page-field [item]="object"
@@ -178,12 +183,14 @@
       <!-- <ds-media-viewer-switcher></ds-media-viewer-switcher> -->
         <!-- mohamed end edit -->
     <!-- <ds-pdf-viewer [item]="object"></ds-pdf-viewer> -->
-    <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
-    <ds-item-page-description-field [item]="object"></ds-item-page-description-field>
+   
     <!-- <ds-generic-item-page-field [item]="object"
       [fields]="['dc.description']"
       [label]="'publication.page.description'">
     </ds-generic-item-page-field> -->
+  
+
+
 
         <ds-generic-item-page-field [item]="object"
       [fields]="['dc.description.recommendations']"
@@ -191,10 +198,7 @@
     </ds-generic-item-page-field>
 
 
-    <ds-generic-item-page-field [item]="object"
-    [fields]="['dc.language.iso']"
-    [label]="'item.page.language'">
-    </ds-generic-item-page-field>
+  
 
     <!-- <ds-generic-item-page-field [item]="object"
     [fields]="['dc.source']"
@@ -206,10 +210,7 @@
     [label]="'item.page.country'">
     </ds-generic-item-page-field>
 
-    <ds-generic-item-page-field [item]="object"
-    [fields]="['dc.type']"
-    [label]="'item.page.type'">
-    </ds-generic-item-page-field>
+
 
 
     <ds-generic-item-page-field [item]="object"
@@ -254,10 +255,7 @@
     [label]="'item.page.edition'">
     </ds-generic-item-page-field>
 
-    <ds-generic-item-page-field [item]="object"
-    [fields]="['dc.title.alternative']"
-    [label]="'item.page.alternative'">
-    </ds-generic-item-page-field>
+
 
     <ds-generic-item-page-field [item]="object"
     [fields]="['dc.type.status']"
@@ -450,7 +448,7 @@
           [label]="'item.page.conclusion'">
           </ds-generic-item-page-field>
 
-          <ds-generic-item-page-field [item]="object"
+          <!-- <ds-generic-item-page-field [item]="object"
           [fields]="['dc.description.note']"
           [label]="'item.page.note'">
           </ds-generic-item-page-field>
@@ -458,7 +456,7 @@
           <ds-generic-item-page-field [item]="object"
           [fields]="['dc.description.tableofcontents']"
           [label]="'item.page.tableofcontents'">
-          </ds-generic-item-page-field>
+          </ds-generic-item-page-field> -->
 
           <ds-generic-item-page-field [item]="object"
           [fields]="['dc.description.usagerestrictions']"
@@ -509,21 +507,132 @@
 </ds-metadata-representation-list>
 
 
-    <ds-generic-item-page-field [item]="object"
-      [fields]="['dc.subject']"
-      [separator]="','"
-      [label]="'item.page.subject'">
-    </ds-generic-item-page-field>
+
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.identifier.citation']"
       [label]="'item.page.citation'">
     </ds-generic-item-page-field>
-    <ds-item-page-uri-field [item]="object"
-      [fields]="['dc.identifier.uri']"
-      [label]="'item.page.uri'">
-    </ds-item-page-uri-field>
+
+
+    <!-- King Bio start -->
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.title.alternative']"
+    [label]="'item.page.alternative'">
+    </ds-generic-item-page-field>
+
+    <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
+    <ds-item-page-description-field [item]="object"></ds-item-page-description-field>
+
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.description.url']"
+    [label]="'item.page.url'">
+    </ds-generic-item-page-field>
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.description.subtype']"
+    [label]="'item.page.type'">
+    </ds-generic-item-page-field>
+
+
+    <ds-generic-item-page-field [item]="object"
+          [fields]="['dc.description.note']"
+          [label]="'item.page.note'">
+          </ds-generic-item-page-field>
+
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.format']"
+    [label]="'item.page.format'">
+  </ds-generic-item-page-field>
+
+  <ds-generic-item-page-field [item]="object"
+  [fields]="['dc.description.Genre']"
+  [label]="'item.page.Genre'">
+</ds-generic-item-page-field>
+
+<ds-generic-item-page-field [item]="object"
+  [fields]="['dc.identifier.Issue']"
+  [label]="'item.page.identifierIssue'">
+</ds-generic-item-page-field>
+
+<ds-generic-item-page-field [item]="object"
+[fields]="['dc.subject.person']"
+[label]="'item.page.person'">
+</ds-generic-item-page-field>
+
+<ds-generic-item-page-field [item]="object"
+[fields]="['dc.subject.other']"
+[label]="'item.page.other'">
+</ds-generic-item-page-field>
+
+<ds-generic-item-page-field [item]="object"
+[fields]="['dc.subject.note']"
+[label]="'item.page.subjectNote'">
+</ds-generic-item-page-field>
+
+
+<ds-generic-item-page-field [item]="object"
+[fields]="['dc.coverage.temporal']"
+[label]="'item.page.temporal'">
+</ds-generic-item-page-field>
+
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.subject.corporate']"
+      [label]="'item.page.corporate'">
+    </ds-generic-item-page-field>
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.creator']"
+    [label]="'item.page.creator'">
+  </ds-generic-item-page-field>
+    
+<ds-generic-item-page-field [item]="object"
+[fields]="['dc.description.tableofcontents']"
+[label]="'item.page.tableofcontents'">
+</ds-generic-item-page-field>
+
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.coverage.spatial']"
+    [label]="'item.page.spatial'">
+  </ds-generic-item-page-field>
+
+
+
+
+  <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.language.iso']"
+    [label]="'item.page.language'">
+    </ds-generic-item-page-field>
+
+
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.identifier.isbn']"
+    [label]="'item.page.isbn'">
+    </ds-generic-item-page-field>
+    
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.relation.ispartofseries']"
+    [label]="'item.page.ispartofseries'">
+    </ds-generic-item-page-field>
+
+
+
+
+
+
+
+
+    <!-- King Bio end -->
     <ds-item-page-collections [item]="object"></ds-item-page-collections>
 
+    <ds-item-page-uri-field [item]="object"
+    [fields]="['dc.identifier.uri']"
+    [label]="'item.page.uri'">
+  </ds-item-page-uri-field>
     <!-- <ds-related-items
     [parentItem]="object"
     [relationType]="'isProjectOfPublication'"

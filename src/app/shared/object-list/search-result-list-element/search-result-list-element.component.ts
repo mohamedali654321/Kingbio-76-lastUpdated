@@ -50,8 +50,8 @@ export class SearchResultListElementComponent<T extends SearchResult<K>, K exten
      // this.keywords=this.dso.allMetadataValues('dc.subject').slice(0,3); //kwar-edit
      let  arabic = /[\u0600-\u06FF]/;
      let english = /[a-zA-Z]/;
-     let arabicKeyswords = this.dso.allMetadataValues('dc.subject').filter(key=>arabic.test(key));
-     let englishKeywords = this.dso.allMetadataValues('dc.subject').filter(key=>english.test(key));
+     let arabicKeyswords = this.dso.allMetadataValues('dc.subject.other').filter(key=>arabic.test(key));
+     let englishKeywords = this.dso.allMetadataValues('dc.subject.other').filter(key=>english.test(key));
      (typeof window === 'object' && hasValue(window.localStorage)) && window.localStorage.getItem('selectedLangCode')  === 'ar' ? this.keywords = arabicKeyswords : this.keywords = englishKeywords;
      // kware-edit replace title ith alternative-title of items based on langugae
 

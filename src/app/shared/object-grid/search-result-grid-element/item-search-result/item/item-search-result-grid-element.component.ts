@@ -67,8 +67,8 @@ export class ItemSearchResultGridElementComponent extends SearchResultGridElemen
          // this.keywords=this.dso.allMetadataValues('dc.subject').slice(0,3); //kwar-edit
          let  arabic = /[\u0600-\u06FF]/;
          let english = /[a-zA-Z]/;
-         let arabicKeyswords = this.dso.allMetadataValues('dc.subject').filter(key=>arabic.test(key));
-         let englishKeywords = this.dso.allMetadataValues('dc.subject').filter(key=>english.test(key));
+         let arabicKeyswords = this.dso.allMetadataValues('dc.subject.other').filter(key=>arabic.test(key));
+         let englishKeywords = this.dso.allMetadataValues('dc.subject.other').filter(key=>english.test(key));
        this.localeService.getCurrentLanguageCode() === 'ar' ? this.keywords = arabicKeyswords.slice(0,3) : this.keywords = englishKeywords.slice(0,3);
 
 

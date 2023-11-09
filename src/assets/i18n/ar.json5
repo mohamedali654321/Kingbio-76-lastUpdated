@@ -624,9 +624,9 @@
 
   "browse.comcol.by.author": "بواسطة المؤلف",
 
-  "browse.comcol.by.issued": "بواسطة تاريخ الإصدار",
+  "browse.comcol.by.issued": "بواسطة تاريخ النشر",
 
-  "browse.comcol.by.dateissued": "بواسطة تاريخ الإصدار",
+  "browse.comcol.by.dateissued": "بواسطة تاريخ النشر",
 
   "browse.comcol.by.subject": "بواسطة الموضوع",
 
@@ -638,9 +638,9 @@
 
   "browse.metadata.author": "المؤلف",
 
-  "browse.metadata.issued": "تاريخ الإصدار",
+  "browse.metadata.issued": "تاريخ النشر",
 
-  "browse.metadata.dateissued": "تاريخ الإصدار",
+  "browse.metadata.dateissued": "تاريخ النشر",
 
   "browse.metadata.subject": "الموضوع",
 
@@ -688,7 +688,7 @@
 
   "browse.startsWith.months.none": "(اختر شهراً)",
 
-  "browse.startsWith.months.none.label": "اختر تاريخ الإصدار",
+  "browse.startsWith.months.none.label": "اختر تاريخ النشر",
 
   "browse.startsWith.months.november": "نوفمبر",
 
@@ -1885,7 +1885,7 @@
 
   "item.page.journal-title": "عنوان الدورية",
 
-  "item.page.publisher": "الناشر",
+  "item.page.publisher": "الناشر- المصدر",
 
   "item.page.titleprefix": "المادة: ",
 
@@ -2131,7 +2131,7 @@
 
   "journalissue.page.edit": "تحرير هذه المادة",
 
-  "journalissue.page.issuedate": "تاريخ الإصدار",
+  "journalissue.page.issuedate": "تاريخ النشر",
 
   "journalissue.page.journal-issn": "ردمد الدورية",
 
@@ -2149,7 +2149,7 @@
 
   "journalvolume.page.edit": "تحرير هذه المادة",
 
-  "journalvolume.page.issuedate": "تاريخ الإصدار",
+  "journalvolume.page.issuedate": "تاريخ النشر",
 
   "journalvolume.page.titleprefix": "مجلد الدورية: ",
 
@@ -2261,7 +2261,7 @@
 
   "menu.section.browse_community_by_author": "بواسطة المؤلف",
 
-  "menu.section.browse_community_by_issue_date": "بواسطة تاريخ الإصدار",
+  "menu.section.browse_community_by_issue_date": "بواسطة تاريخ النشر",
 
   "menu.section.browse_community_by_title": "بواسطة العنوان",
 
@@ -2269,9 +2269,9 @@
 
   "menu.section.browse_global_by_author": "بواسطة المؤلف",
 
-  "menu.section.browse_global_by_issued": "بواسطة تاريخ الإصدار",
+  "menu.section.browse_global_by_issued": "بواسطة تاريخ النشر",
 
-  "menu.section.browse_global_by_dateissued": "بواسطة تاريخ الإصدار",
+  "menu.section.browse_global_by_dateissued": "بواسطة تاريخ النشر",
 
   "menu.section.browse_global_by_organization": "بواسطة المؤسسة",
 
@@ -2741,7 +2741,7 @@
 
   "publication.page.journal-title": "عنوان الدورية",
 
-  "publication.page.publisher": "الناشر",
+  "publication.page.publisher": "الناشر - المصدر",
 
   "publication.page.titleprefix": "المنشور: ",
 
@@ -3283,25 +3283,25 @@
 
   "sorting.DESC": "تنازلياً",
 
-  "sorting.dc.title.ASC": "العنوان تصاعدياً",
+  "sorting.dc.title.ASC": "العنوان أ - ي",
 
-  "sorting.dc.title.DESC": "العنوان تنازلياً",
+  "sorting.dc.title.DESC": "العنوان ي - أ",
 
   "sorting.score.ASC": "الأقل صلة",
 
   "sorting.score.DESC": "الأكثر صلة",
 
-  "sorting.dc.date.issued.ASC": "تاريخ الإصدار تصاعدياً",
+  "sorting.dc.date.issued.ASC": "تاريخ النشر تصاعدياً",
 
-  "sorting.dc.date.issued.DESC": "تاريخ الإصدار تنازلياً",
+  "sorting.dc.date.issued.DESC": "تاريخ النشر تنازلياً",
 
-  "sorting.dc.date.dateIssued.ASC": "تاريخ الإصدار تصاعدياً",
+  "sorting.dc.date.dateIssued.ASC": "تاريخ النشر تصاعدياً",
 
-  "sorting.dc.date.dateIssued.DESC": "تاريخ الإصدار تنازلياً",
+  "sorting.dc.date.dateIssued.DESC": "تاريخ النشر تنازلياً",
 
-  "sorting.dc.date.accessioned.ASC": "تاريخ الانضمام تصاعدياً",
+  "sorting.dc.date.accessioned.ASC": "تاريخ الإيداع تصاعدياً",
 
-  "sorting.dc.date.accessioned.DESC": "تاريخ الانضمام تنازلياً",
+  "sorting.dc.date.accessioned.DESC": "تاريخ الإيداع تنازلياً",
 
   "sorting.lastModified.ASC": "آخر تعديل تصاعدياً",
 
@@ -3972,7 +3972,7 @@
   "item.page.degree": "الدرجة العلمية",
   "item.page.status": "الحالة",
   "item.page.edition": "رقم الإصدار",
-  "item.page.alternative": "العناوين البديلة",
+  "item.page.alternative": "العناوين الموازي",
   "item.page.advisor": "المشرفون",
 
   "search.filters.filter.advisor.head": "المشرف",
@@ -6622,6 +6622,47 @@
 
     "search.filters.filter.issued.head": "تاريخ النشر",
   "search.filters.filter.dateissued.head": "تاريخ النشر",
+
+  'item.page.spatial':'الدول - الاماكن',
+  'item.page.other':'الموضوعات',
+  'item.page.corporate':'الهيئات',
+  'item.page.person':'الشخصيات',
+  'item.page.format':'الوصف المادى',
+  'item.page.creator':'اسم المصور',
+  'item.page.identifierIssue':'رقم الاصدار - العدد',
+  'item.page.Genre':'النوع الادبي',
+  'item.page.hijriCreated':'التاريخ الهجرى',
+  'item.page.temporal':'الأحداث',
+  'item.page.isbn':'رقم الكتَاب المعياري الدولي',
+  'item.page.ispartofseries':'اسم السلسلة',
+  'item.page.tableofcontents':'جدول المحتويات',
+  'item.page.subjectNote':'موضوع مقترح',
+  'item.page.url':'الرابط',
+
+  "menu.section.browse_global_by_person": "بواسطة الشخصيات",
+  "browse.metadata.person": "الشخصيات",
+  "browse.metadata.person.breadcrumbs":'استعراض بواسطة الشخصيات',
+  "browse.comcol.by.person": "بواسطة الشخصيات",
+
+  "menu.section.browse_global_by_spatial": "بواسطة الأماكن",
+  "browse.metadata.spatial": "الأماكن",
+  "browse.metadata.spatial.breadcrumbs":'استعراض بواسطة الأماكن',
+  "browse.comcol.by.spatial": "بواسطة الأماكن",
+
+  "menu.section.browse_global_by_corporate": "بواسطة الهيئات",
+  "browse.metadata.corporate": "الهيئات",
+  "browse.metadata.corporate.breadcrumbs":'استعراض بواسطة الهيئات',
+  "browse.comcol.by.corporate": "بواسطة الهيئات",
+
+  "menu.section.browse_global_by_temporal": "بواسطة الأحداث",
+  "browse.metadata.temporal": "الأحداث",
+  "browse.metadata.temporal.breadcrumbs":'استعراض بواسطة الأحداث',
+  "browse.comcol.by.temporal": "بواسطة الأحداث",
+
+  "menu.section.browse_global_by_other": "بواسطة رؤوس الموضوعات",
+  "browse.metadata.other": "رؤوس الموضوعات",
+  "browse.metadata.other.breadcrumbs":'استعراض بواسطة رؤوس الموضوعات',
+  "browse.comcol.by.other": "بواسطة رؤوس الموضوعات",
 
 
 }

@@ -2268,13 +2268,13 @@
 
   "menu.section.browse_global_by_organization": "By Organization",
 
-  "menu.section.browse_global_by_dateaccessioned": "By Accessioned Date ",
+  "menu.section.browse_global_by_dateaccessioned": "By Depositeed Date ",
 
   "browse.comcol.by.organization": "By Organization",
 
-  "browse.comcol.by.dateaccessioned": "By Accessioned Date ",
+  "browse.comcol.by.dateaccessioned": "By Depositeed Date ",
 
-  "browse.metadata.dateaccessioned.breadcrumbs": "Browse By Accessioned Date ",
+  "browse.metadata.dateaccessioned.breadcrumbs": "Browse By Depositeed Date ",
 
   "browse.metadata.organization.breadcrumbs": "Browse By Organization ",
 
@@ -3271,9 +3271,9 @@
 
   "sorting.DESC": "Descending",
 
-  "sorting.dc.title.ASC": "Title Ascending",
+  "sorting.dc.title.ASC": "Title A - Z",
 
-  "sorting.dc.title.DESC": "Title Descending",
+  "sorting.dc.title.DESC": "Title Z - A",
 
   "sorting.score.ASC": "Least Relevant",
 
@@ -3283,9 +3283,9 @@
 
   "sorting.dc.date.issued.DESC": "Date Issued Descending",
 
-  "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  "sorting.dc.date.accessioned.ASC": "Depositeed Date Ascending",
 
-  "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  "sorting.dc.date.accessioned.DESC": "Depositeed Date Descending",
 
   "sorting.lastModified.ASC": "Last modified Ascending",
 
@@ -6532,6 +6532,52 @@
 
   "search.filters.filter.issued.head": "Date Issued",
   "search.filters.filter.dateIssued.head": "Date Issued",
+
+
+     'item.page.spatial':'Spatial',
+   'item.page.other':'Topics',
+   'item.page.corporate':'Organization',
+   'item.page.person':'Personals',
+   'item.page.format':'Image Format',
+   'item.page.creator':'The name of the photographer',
+   'item.page.identifierIssue':'Version number - issue',
+   'item.page.Genre':'Genre',
+   'item.page.hijriCreated':'Hijri date',
+   'item.page.temporal':'Events',
+   'item.page.isbn':'International Standard Book Number(ISBN)',
+    'item.page.ispartofseries':'Series name',
+    'item.page.tableofcontents':'Table of Contents',
+    'item.page.subjectNote':'Suggested Topic',
+    'item.page.url':'Link',
+
+
+
+
+
+  "menu.section.browse_global_by_person": "By Persons",
+  "browse.metadata.person": "Persons",
+  "browse.metadata.person.breadcrumbs":'Browsing by Persons',
+  "browse.comcol.by.person": "By Persons",
+
+  "menu.section.browse_global_by_spatial": "By Places",
+  "browse.metadata.spatial": "Places",
+  "browse.metadata.spatial.breadcrumbs":'Browsing by Places',
+  "browse.comcol.by.spatial": "By Places",
+
+  "menu.section.browse_global_by_corporate": "By Organizations",
+  "browse.metadata.corporate": "Organizations",
+  "browse.metadata.corporate.breadcrumbs":'Browsing by Organizations',
+  "browse.comcol.by.corporate": "By Organizations",
+
+  "menu.section.browse_global_by_temporal": "By Events",
+  "browse.metadata.temporal": "Events",
+  "browse.metadata.temporal.breadcrumbs":'Browsing by Events',
+  "browse.comcol.by.temporal": "By Events",
+
+  "menu.section.browse_global_by_other": "By Topics",
+  "browse.metadata.other": "Topics",
+  "browse.metadata.other.breadcrumbs":'Browsing by Topics',
+  "browse.comcol.by.other": "By Topics",
 
 }
 
